@@ -1,0 +1,49 @@
+package hallo;
+
+import java.util.Scanner;
+
+public class nochmal {
+
+	public static void main(String args[]){
+		// INIT
+		
+		int z1,z2,z3,z4,z5, iSumme;
+		String sAntwort = "ja";
+		Scanner sc = new Scanner(System.in);
+		
+		
+		// Eingabe 
+		System.out.println("Eingabeaufforderung <ja> oder <nein>?");
+		sAntwort = sc.next();
+		
+		if(sAntwort.equals("ja")) {
+		
+		System.out.println("Geben Sie 1.Zahl ein: ");
+		z1 = sc.nextInt();
+		
+		System.out.println("Geben Sie 2.Zahl ein: ");
+		z2 = sc.nextInt();
+		
+		System.out.println("Geben Sie 3.Zahl ein: ");
+		z3 = sc.nextInt();
+		
+		System.out.println("Geben Sie 4.Zahl ein: ");
+		z4 = sc.nextInt();
+		
+		System.out.println("Geben Sie 5.Zahl ein: ");
+		z5 = sc.nextInt();
+		
+		
+		// Berechnung
+		iSumme = z1 + z2 + z3 + z4+ z5;
+		
+		// Ausgabe
+		System.out.println("Gesamtsumme: " + iSumme);
+		}
+		else {
+			System.out.println("Fehler..");
+		}
+		sc.close();
+	}
+	
+}
