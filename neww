@@ -1,0 +1,23 @@
+package de.gds2_02_12_2022;
+
+public class datentypstring {
+
+	public static void main(String[] args) {
+
+		//Kurzmethode 
+		String s = "Hi ich mag dich";
+		
+		// Lange Schreibweise
+		String b = new String("Ich liebe dich");
+		
+		String c = null;
+		if(c == null) {
+			System.out.println("s ist null");
+		}
+		
+		
+		System.out.println(b.equals(b));
+
+	}
+
+}
