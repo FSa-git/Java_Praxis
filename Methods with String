@@ -1,0 +1,29 @@
+package de.gds2_02_12_2022;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		String VIP = "Kai";
+		String lu = "Kai";
+		String manu = "Neuer";
+		String name = "Das ist der eine Datei von der ADV.txt";
+		
+		boolean result1 = VIP.equals("Kai");
+		boolean result2 = VIP.equals("Kai");
+		boolean result3 = VIP.equals(lu.toUpperCase());
+		boolean result4 = VIP.equals(manu);
+		boolean istxt = manu.endsWith(".txt");
+		boolean istxt2 = name.endsWith(".txt");
+		
+		System.out.println("result 1: " + result1);
+		System.out.println("result 2: " + result2);
+		System.out.println("result 3: " + result3);
+		System.out.println(result4);
+		
+		System.out.println("istxt ist : " + istxt);
+		System.out.println("istxt ist : " + istxt2);
+		
+	}
+
+}
